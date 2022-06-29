@@ -1,6 +1,8 @@
+```bash
 cd kafka-tools
 docker build -t registry.cn-beijing.aliyuncs.com/boer/ktools:0.9.8 .
 docker push registry.cn-beijing.aliyuncs.com/boer/ktools:0.9.8
+```
 
 ```yaml
 kubectl create -n mw-kafka -f - <<EOF
