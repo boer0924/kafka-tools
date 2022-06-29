@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/boer/projects/kafka-go/examples/producer-random'
+make: Leaving directory '/home/boer/projects/kafka-go/examples/producer-random'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
